@@ -1,0 +1,6 @@
+{
+  "name": "StockAI Research Lab",
+  "description": "基於 MHA-MLP 與 TPWOA 優化算法的股票趨勢預測與研究平台。提供即時數據分析、多頭注意力機制特徵提取以及深度學習模型推論。",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
