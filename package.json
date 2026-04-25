@@ -5,11 +5,13 @@
   "type": "module",
   "scripts": {
     "dev": "tsx server.ts",
-    "build": "vite build",
+    "build": "vite build && tsc --project tsconfig.json --outDir dist --noEmit false",
+    "build-server": "tsc --project tsconfig.json --outDir dist --noEmit false",
     "preview": "vite preview",
     "clean": "rm -rf dist",
     "lint": "tsc --noEmit",
-    "start": "tsx server.ts"
+    "start": "node dist/server.js",
+    "start-server": "node dist/server.js"
   },
   "dependencies": {
     "@google/genai": "^1.29.0",
